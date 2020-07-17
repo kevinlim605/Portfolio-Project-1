@@ -1,0 +1,50 @@
+body {
+  font-family: 'Monoton', cursive;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("../img/background.jpg"); }
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url("../img/jumbotron.jpg"); }
+
+header {
+  font-family: 'Monoton', cursive;
+  color: #FF172A; }
+
+.row-content {
+  padding: 30px 0; }
+
+.row-content h1 {
+  text-align: center; }
+
+#test {
+  border-radius: 7px; }
+
+.fa {
+  color: #FF172A; }
+
+footer {
+  background-color: #262626; }
+
+nav {
+  background-color: #262626; }
+
+.nav-link {
+  color: #FF172A; }
+
+.carousel-inner .carousel-item img {
+  margin: 0 auto; }
+
+#mediaCarousel .carousel-inner .carousel-item img {
+  height: 500px; }
+
+.card {
+  color: white; }
+  .card li, .card #table-selector {
+    background-color: #3e556d; }
+
+.card-header {
+  background-color: #262626; }
+
+td {
+  border-color: #262626; }
