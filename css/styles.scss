@@ -1,11 +1,16 @@
 body {
     font-family: 'Monoton', cursive;
     font-family: 'Open Sans', sans-serif;
-    background-image: url("../img/background.jpg");}
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 .jumbotron {
     margin-bottom: 0px;
     background-image: url("../img/jumbotron.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -31,6 +36,10 @@ header {
     color: #FF172A;
 }
 
+#phone {
+    color: #007bff
+}
+
 footer {
     background-color: #262626;
 }
@@ -45,16 +54,27 @@ nav {
 
 .carousel-inner .carousel-item img{
     margin: 0 auto;
+    border: solid white;
 }
 
-#mediaCarousel .carousel-inner .carousel-item img {
-    height: 500px;
+#mediaCarousel {
+    .carousel-control-prev-icon {
+        margin-left: 55px;
+    }
+}
+
+#mediaCarousel {
+    .carousel-control-next-icon {
+        margin-right: 55px;
+    }
 }
 
 .card {
     color: white;
-    li, #table-selector {
+    #table-selector, li {
         background-color: #3e556d;
+        border-bottom-left-radius: calc(0.25rem - 1px);;
+        border-bottom-right-radius: calc(0.25rem - 1px);;
     }
 }
 
@@ -62,6 +82,10 @@ nav {
     background-color: #262626;
 }
 
-td {
-    border-color: #262626;
+.table {
+    width: 100%;
+    td {
+        border: none;
+        width: 33%;
+    }
 }
